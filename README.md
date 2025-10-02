@@ -13,21 +13,26 @@ This application is built to showcase end-to-end expertise in AI service integra
 •	Code Formatting: Automatically applies syntax highlighting to code blocks received from the AI, improving readability.
 
 🛠️ Technology Stack
+
 Frontend (Client)
 •	React.js (Vite): Core library used for building the user interface, managing state, and rendering dynamic chat and sidebar components.
 •	CSS: Used for responsive UI component design and application styling.
 •	React Context: Employed for efficient, application-wide state management (threads, current prompt, and replies).
+
 Backend (API)
 •	Node.js & Express.js: Provides a robust and scalable server environment, handling API requests and serving as the orchestration layer.
 •	OpenAI API (`gpt-4o-mini`): Integrated for generating all conversational content and AI responses.
+
 Data & Persistence
 •	MongoDB (Atlas): The cloud-hosted NoSQL database used for persistent storage.
 •	Mongoose: Object Data Modeling (ODM) library providing schema-based validation and interaction with MongoDB.
+
 Supporting Libraries
 •	`react-markdown` & `rehype-highlight`: Responsible for safely parsing and rendering Markdown and applying syntax highlighting to code blocks on the client.
 •	`react-spinners`: Provides visually appealing loading indicators during API calls.
 
 🚀 Getting Started
+
 1. Prerequisites
 •	Node.js (LTS version)
 •	npm or Yarn
@@ -35,10 +40,11 @@ Supporting Libraries
 •	OpenAI API Key
 
 2. Environment Variables
+
 Create a file named .env inside your backend/ directory to securely store your sensitive keys.
+
 # MongoDB Connection String (Atlas recommended)
 MONGODB_URI="mongodb+srv://<user>:<password>@<cluster>.mongodb.net/<dbname>"
-
 # OpenAI API Key (Required for chat functionality)
 OPENAI_API_KEY="sk-************************************"
 
@@ -47,6 +53,7 @@ OPENAI_API_KEY="sk-************************************"
 This repository follows a monolithic structure. Start the backend first, then the frontend.
 
 A. Backend Setup (API Server)
+
 # 1. Navigate to the backend directory
 cd backend
 
@@ -58,6 +65,7 @@ nodemon server.js
 
 
 B. Frontend Setup (React Client)
+
 # 1. Navigate to the project root directory
 cd .. 
 
