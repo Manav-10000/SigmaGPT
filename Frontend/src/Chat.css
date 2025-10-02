@@ -1,0 +1,57 @@
+.chats {
+    max-width: 700px;
+    /* FIX 1: Change to 'auto' so scrollbar only appears when needed. */
+    overflow-y: auto;
+    /* FIX 2: Reduced vertical padding from 8rem to 1rem to prevent scrollbar on empty chat.
+       Syntax: padding: [top/bottom] [left/right] */
+    padding: 1rem 8rem;
+
+    /* SCROLLBAR STYLING (The dark, thin look) */
+    /* Firefox */
+    scrollbar-color: #4b4b4b #212121; /* thumb color track color */
+    scrollbar-width: thin;
+}
+
+/* For WebKit browsers (Chrome, Safari, newer Edge) */
+.chats::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent; /* Makes the track area clear */
+}
+
+.chats::-webkit-scrollbar-thumb {
+    background-color: #4b4b4b; /* Dark grey thumb */
+    border-radius: 4px;
+}
+
+.chats::-webkit-scrollbar-thumb:hover {
+    background-color: #666;
+}
+
+.userDiv {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9rem; 
+}
+
+
+.gptDiv {
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.userMessage {
+    background-color: #323232;
+    padding: 10px 20px;
+    border-radius: 14px;
+    margin-left: 15rem;
+    max-width: 500px;
+    width: fit-content;
+}
+
+.hljs {
+    border-radius: 14px !important;
+}
+
+pre {
+    white-space: pre-wrap;
+}
