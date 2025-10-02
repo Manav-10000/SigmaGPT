@@ -1,4 +1,5 @@
 SigmaGPT: Full-Stack AI Chat Application
+
 🎯 Project Overview
 SigmaGPT is a modern, full-stack application engineered as a Full-Stack LLM Application.
 The project demonstrates a monolithic architecture connecting a responsive React client to a robust Node.js/Express API, powered by persistent MongoDB storage and integrated with the OpenAI LLM service.
