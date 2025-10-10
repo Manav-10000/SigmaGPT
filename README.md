@@ -1,11 +1,11 @@
 SigmaGPT: Full-Stack AI Chat Application
 
-🎯 Project Overview
+Project Overview
 SigmaGPT is a modern, full-stack application engineered as a Full-Stack LLM Application.
 The project demonstrates a monolithic architecture connecting a responsive React client to a robust Node.js/Express API, powered by persistent MongoDB storage and integrated with the OpenAI LLM service.
 This application is built to showcase end-to-end expertise in AI service integration, data modeling, and developing production-ready web services.
 
-✨ Key Features
+Key Features
 •	Advanced AI Integration: Communicates with the OpenAI API to utilize the powerful `gpt-4o-mini` model for real-time, contextual response generation.
 •	Persistent Chat History: Seamlessly saves and retrieves individual chat threads (including message history) to MongoDB, allowing users to resume conversations across sessions.
 •	RESTful API Design: Implements dedicated API endpoints for thread creation, retrieval, deletion, and real-time chat updates.
@@ -31,7 +31,7 @@ Supporting Libraries
 •	`react-markdown` & `rehype-highlight`: Responsible for safely parsing and rendering Markdown and applying syntax highlighting to code blocks on the client.
 •	`react-spinners`: Provides visually appealing loading indicators during API calls.
 
-🚀 Getting Started
+Getting Started
 
 1. Prerequisites
 •	Node.js (LTS version)
