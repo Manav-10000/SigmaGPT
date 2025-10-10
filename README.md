@@ -12,7 +12,7 @@ Key Features
 •	Dynamic State Management: Features a dynamic sidebar that updates automatically with new and modified threads, managed on the frontend using React's Context API.
 •	Code Formatting: Automatically applies syntax highlighting to code blocks received from the AI, improving readability.
 
-🛠️ Technology Stack
+Technology Stack
 
 Frontend (Client)
 •	React.js (Vite): Core library used for building the user interface, managing state, and rendering dynamic chat and sidebar components.
@@ -76,7 +76,7 @@ npm install
 npm run dev
 
 
-🛣️ Future Enhancements (Roadmap)
+Future Enhancements (Roadmap)
 The current version focuses on core functionality and persistence. Planned features include:
 •	User Authentication (JWT): Implement secure login/registration using JWT and manage user-specific threads for multi-user functionality.
 •	Streaming Responses (UX): Migrate the API calls to support real-time, token-by-token display of the AI response using server-sent events or websockets, greatly enhancing the user experience.
