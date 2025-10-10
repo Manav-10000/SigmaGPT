@@ -76,7 +76,7 @@ npm install
 npm run dev
 
 
-Future Enhancements (Roadmap)
+Future Enhancements
 
 The current version focuses on core functionality and persistence. Planned features include:
 
