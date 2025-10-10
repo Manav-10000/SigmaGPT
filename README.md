@@ -77,9 +77,15 @@ npm run dev
 
 
 Future Enhancements (Roadmap)
+
 The current version focuses on core functionality and persistence. Planned features include:
+
 •	User Authentication (JWT): Implement secure login/registration using JWT and manage user-specific threads for multi-user functionality.
+
 •	Streaming Responses (UX): Migrate the API calls to support real-time, token-by-token display of the AI response using server-sent events or websockets, greatly enhancing the user experience.
+
 •	Multimodality Support (AI/Vision): Expand the application to handle and process image inputs alongside text, leveraging the LLM's vision features.
+
 •	Token/Cost Management (Operations): Implement backend logic to track and display the token usage and estimated cost for each thread, demonstrating operational awareness.
+
 •	API Testing Suite (Quality): Integrate unit and integration testing frameworks (e.g., Jest or Supertest) for all backend API endpoints to ensure reliability and maintainability.
